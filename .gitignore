@@ -1,5 +1,7 @@
 /out/
+/build/
 /.idea/
 *.iml
 *.class
+NetBeansProject/private/
 /.DS_Store

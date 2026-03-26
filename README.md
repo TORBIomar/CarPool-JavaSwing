@@ -13,6 +13,8 @@ Desktop carpool management application built with Java Swing.
 
 - `src/` - Java source code
 - `lib/` - external JAR dependencies
+- `NetBeansProject/` - NetBeans project metadata
+- `build.xml` - Apache Ant build script
 - `manifest.mf` - JAR manifest metadata
 
 ## Requirements
@@ -28,6 +30,16 @@ Desktop carpool management application built with Java Swing.
 3. Set `app.Main` as the entry point.
 4. Run the application.
 
+## Build with Ant (NetBeans-compatible)
+
+From the repository root:
+
+```bash
+ant clean
+ant compile
+ant run
+```
+
 ## Run from Terminal
 
 From the repository root:
@@ -38,3 +50,8 @@ java -cp "out;lib/*" app.Main
 ```
 
 Note for Unix/macOS users: replace `;` with `:` in the `java -cp` command.
+
+## Repository Hygiene
+
+- Generated files are intentionally ignored (`build/`, `out/`, `.class`, IDE private metadata).
+- Do not commit IDE-local settings or compiled artifacts.

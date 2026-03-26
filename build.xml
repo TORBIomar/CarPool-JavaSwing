@@ -31,7 +31,7 @@
 <!-- in the project's Project Properties dialog box.-->
 <project name="MySwingApp" default="default" basedir=".">
     <description>Builds, tests, and runs the project MySwingApp.</description>
-    <import file="nbproject/build-impl.xml"/>
+    <import file="NetBeansProject/build-impl.xml"/>
     <!--
 
     There exist several targets which are by default empty and which can be 
@@ -63,7 +63,7 @@
         </target>
 
     For list of available properties check the imported 
-    nbproject/build-impl.xml file. 
+    NetBeansProject/build-impl.xml file.
 
 
     Another way to customize the build is by overriding existing main targets.
@@ -89,7 +89,7 @@
     Notice that the overridden target depends on the jar target and not only on 
     the compile target as the regular run target does. Again, for a list of available 
     properties which you can use, check the target you are overriding in the
-    nbproject/build-impl.xml file. 
+    NetBeansProject/build-impl.xml file.
 
     -->
 </project>
