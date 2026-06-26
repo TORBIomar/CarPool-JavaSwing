@@ -51,7 +51,4 @@ java -cp "out;lib/*" app.Main
 
 Note for Unix/macOS users: replace `;` with `:` in the `java -cp` command.
 
-## Repository Hygiene
 
-- Generated files are intentionally ignored (`build/`, `out/`, `.class`, IDE private metadata).
-- Do not commit IDE-local settings or compiled artifacts.
